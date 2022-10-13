@@ -291,6 +291,6 @@ $btStar.addEventListener('click', () => {
   $btStar.style.display = 'none'
   interval = setInterval(() => {
     updateStack()
-  }, 4000)
+  }, 1000)
   sountrack.playBg()
 })
